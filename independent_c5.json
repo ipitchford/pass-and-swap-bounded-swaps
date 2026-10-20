@@ -1,0 +1,299 @@
+{
+  "status": "PASS",
+  "arithmetic": "Python integers and fractions; acceptance checks remain active under -O",
+  "state_count": 720,
+  "closed_scc_sizes": [
+    48,
+    48,
+    48,
+    48,
+    48,
+    48,
+    48,
+    48,
+    48,
+    48,
+    180
+  ],
+  "transient_state_count": 60,
+  "placement_height_counts": {
+    "2": 480,
+    "3": 180,
+    "4": 60
+  },
+  "bad_class_size": 180,
+  "orbits": [
+    {
+      "index": 0,
+      "representative": [
+        [],
+        [
+          0,
+          1,
+          2,
+          4,
+          3
+        ]
+      ],
+      "orbit_size": 20,
+      "orbit_probability": "1/48",
+      "per_state_probability": "1/960",
+      "transition_counts": [
+        0,
+        0,
+        0,
+        1,
+        2,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 1,
+      "representative": [
+        [],
+        [
+          0,
+          1,
+          4,
+          2,
+          3
+        ]
+      ],
+      "orbit_size": 20,
+      "orbit_probability": "1/48",
+      "per_state_probability": "1/960",
+      "transition_counts": [
+        0,
+        0,
+        0,
+        1,
+        3,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 2,
+      "representative": [
+        [],
+        [
+          0,
+          1,
+          4,
+          3,
+          2
+        ]
+      ],
+      "orbit_size": 20,
+      "orbit_probability": "1/48",
+      "per_state_probability": "1/960",
+      "transition_counts": [
+        0,
+        0,
+        0,
+        3,
+        0,
+        2,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "index": 3,
+      "representative": [
+        [
+          0
+        ],
+        [
+          2,
+          1,
+          3,
+          4
+        ]
+      ],
+      "orbit_size": 20,
+      "orbit_probability": "5/48",
+      "per_state_probability": "1/192",
+      "transition_counts": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "index": 4,
+      "representative": [
+        [
+          0
+        ],
+        [
+          2,
+          3,
+          1,
+          4
+        ]
+      ],
+      "orbit_size": 20,
+      "orbit_probability": "5/48",
+      "per_state_probability": "1/192",
+      "transition_counts": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "index": 5,
+      "representative": [
+        [
+          0
+        ],
+        [
+          2,
+          3,
+          4,
+          1
+        ]
+      ],
+      "orbit_size": 20,
+      "orbit_probability": "5/48",
+      "per_state_probability": "1/192",
+      "transition_counts": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        3,
+        0
+      ]
+    },
+    {
+      "index": 6,
+      "representative": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ],
+      "orbit_size": 20,
+      "orbit_probability": "5/24",
+      "per_state_probability": "1/96",
+      "transition_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        3
+      ]
+    },
+    {
+      "index": 7,
+      "representative": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          2,
+          4
+        ]
+      ],
+      "orbit_size": 20,
+      "orbit_probability": "5/24",
+      "per_state_probability": "1/96",
+      "transition_counts": [
+        0,
+        0,
+        0,
+        0,
+        2,
+        0,
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "index": 8,
+      "representative": [
+        [
+          0,
+          1
+        ],
+        [
+          3,
+          4,
+          2
+        ]
+      ],
+      "orbit_size": 20,
+      "orbit_probability": "5/24",
+      "per_state_probability": "1/96",
+      "transition_counts": [
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1,
+        2,
+        0
+      ]
+    }
+  ],
+  "equal_rate_product_form_valid": true,
+  "heterogeneous_class_rates": [
+    1,
+    1,
+    1,
+    1,
+    2
+  ],
+  "heterogeneous_product_form_residual_witness": {
+    "state": [
+      [
+        0,
+        1,
+        4,
+        2
+      ],
+      [
+        3
+      ]
+    ],
+    "unnormalised_weight": "1/40",
+    "balance_residual": "-1/360"
+  }
+}

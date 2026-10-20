@@ -1,0 +1,6 @@
+{
+"input_sha256": "2e9fe6d759aa0d1b842bc4f4bbdf3be52b47be6f0d47d6afffb4f470a104945c",
+"rows": [{"balanced_words_M":30,"binding_transitions":40,"closed":true,"height":3,"homogeneous_law_global_balance_mu0_2_nu0_3":true,"n":5,"states":180,"strongly_connected":true,"w":2},{"balanced_words_M":140,"binding_transitions":168,"closed":true,"height":4,"homogeneous_law_global_balance_mu0_2_nu0_3":true,"n":7,"states":1120,"strongly_connected":true,"w":3},{"balanced_words_M":630,"binding_transitions":720,"closed":true,"height":5,"homogeneous_law_global_balance_mu0_2_nu0_3":true,"n":9,"states":6300,"strongly_connected":true,"w":4},{"balanced_words_M":2772,"binding_transitions":3080,"closed":true,"height":6,"n":11,"states":33264,"strongly_connected":true,"w":5},{"balanced_words_M":12012,"binding_transitions":13104,"closed":true,"height":7,"n":13,"states":168168,"strongly_connected":true,"w":6}],
+"status": "PASS",
+"verifier": "balanced_class_check.py"
+}

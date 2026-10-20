@@ -1,0 +1,54 @@
+{
+ "title": "Bounded swaps in pass-and-swap queues: counterexamples to a conjecture of Dorsman and Gardner, and a proof for bipartite swapping graphs with odd caps under positive service rates",
+ "author": "Anonymous",
+ "version_date": "2026-10-20",
+ "status": "Unrefereed manuscript with written proofs and an exact, replayable verification package",
+ "doi": "10.5281/zenodo.23515841",
+ "doi_url": "https://doi.org/10.5281/zenodo.23515841",
+ "repository": "https://github.com/ipitchford/pass-and-swap-bounded-swaps",
+ "release_page": "https://evidencepress.org/releases/pass-and-swap-bounded-swaps/",
+ "version": "1.0.0-candidate",
+ "licence": {
+  "prose_manuscript_data_certificates": "CC0-1.0",
+  "code": "MIT"
+ },
+ "primary_source": {
+  "authors": [
+   "Jan-Pieter Dorsman",
+   "Kristen Gardner"
+  ],
+  "year": 2024,
+  "title": "New directions in pass-and-swap queues",
+  "journal": "Queueing Systems",
+  "volume": 107,
+  "pages": "205-256",
+  "doi": "10.1007/s11134-024-09914-1",
+  "target": "Conjecture 1, Section 5.2.2"
+ },
+ "main_results": [
+  "Binding-move lemma: the orientation changes caused by capped service (necessity for all rates, exactness under positive rates); reduction of recurrence to a digraph on acyclic orientations under positive rates (Lemma 3.3, Corollary 3.4).",
+  "Pass-and-swap service equals (truncated) promotion on linear extensions (Proposition 3.5).",
+  "For every w >= 2 the balanced states of C_(2w+1) form a closed class of height w+1, recurrent under positive rates, with (2w+2)!/(w!)^2 states; Conjecture 1 is false for every w >= 2 (Theorem 4.1).",
+  "On C_n with cap w and positive rates, a recurrent class of height > w exists iff n = 1 (mod 2w), and it is the unique such class; for w >= 2 the conjecture therefore fails on C_n exactly when n = 1 (mod 2w) (Theorem 5.2).",
+  "Two odd cycles C_(2a+1), C_(2b+1) joined by a path of length L violate the conjecture at w = a+b+L+1 (Theorem 6.1).",
+  "For bipartite swapping graphs and odd w, under positive rates, every state of height > w is transient (Theorem 7.1).",
+  "Homogeneous rates: uniform global word independent of a binomial split on the balanced class, satisfying the source's partial-balance equations (Theorem 8.2, Proposition 8.3).",
+  "On the balanced class of C_(2w+1), for additive per-job rates and every w >= 2, orientation-scaled original product weights are stationary iff the rates are constant within each queue (Theorem 8.4)."
+ ],
+ "certified_finite_results": [
+  "Census of all connected graphs with at most 7 vertices: 1355 violating (graph, cap) pairs, none bipartite, none at w = 1.",
+  "No violation on any connected bipartite graph with at most 9 vertices, every cap (positive rates), and at most 7 vertices with head-only service.",
+  "Multiplicity examples (Table 4), deviation sizes and absorption probabilities on C_5 (Table 5)."
+ ],
+ "open": [
+  "Conjecture 7.2: bipartite swapping graphs, even caps.",
+  "General order-independent rates (head-only service) beyond the certified range.",
+  "Characterisation of all (G, w) with a recurrent class of excessive height."
+ ],
+ "verification": {
+  "python_dependencies": "Python 3 standard library only",
+  "arithmetic": "exact integers and rationals",
+  "replay": "python3 verify_all.py (add --long for the 9-vertex bipartite run)",
+  "formal_proof_assistant": false
+ }
+}

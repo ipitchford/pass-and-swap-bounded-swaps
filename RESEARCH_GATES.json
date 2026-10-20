@@ -1,0 +1,252 @@
+{
+ "schemaVersion": "1.0",
+ "provenance": "Compiled 20 October 2026 at publication from the package's novelty_report.md and the retained internal review records. Searches listed are those recorded in that report; no new searches were run at publication. This record documents the scrutiny performed, not historical priority.",
+ "contributionMap": [
+  {
+   "claim": "Conjecture 1 of Dorsman and Gardner fails for every cap w >= 2: the balanced states of C_{2w+1} form a closed class of height w+1, recurrent under positive rates (Theorem 4.1).",
+   "unit": "statement",
+   "paperLocation": "Theorem 4.1, Corollary 4.2",
+   "searches": [
+    {
+     "date": "2026-10-19",
+     "query": "pass-and-swap queue swapping limit / bounded swaps Dorsman Gardner conjecture",
+     "corpus": "Public web, arXiv and exact-formula searches recorded in the first-version novelty check"
+    },
+    {
+     "date": "2026-10-20",
+     "query": "\"pass-and-swap queues\" (works since 2024)",
+     "corpus": "Crossref"
+    },
+    {
+     "date": "2026-10-20",
+     "query": "pass-and-swap",
+     "corpus": "arXiv"
+    },
+    {
+     "date": "2026-10-20",
+     "query": "papers citing Dorsman and Gardner 2024 (doi:10.1007/s11134-024-09914-1)",
+     "corpus": "Semantic Scholar citation graph"
+    }
+   ],
+   "closestPriorWork": "Dorsman and Gardner 2024, Section 5.2.2 (states the conjecture, reports numerical support) and Appendix C.2; no later resolution found.",
+   "verdict": "new-in-bounded-search"
+  },
+  {
+   "claim": "Cycle classification: under positive rates C_n has a recurrent class of excessive height iff n = 1 (mod 2w), and it is unique (Theorem 5.2).",
+   "unit": "statement",
+   "paperLocation": "Theorem 5.2",
+   "searches": [
+    {
+     "date": "2026-10-20",
+     "query": "\"pass-and-swap queues\" (works since 2024)",
+     "corpus": "Crossref"
+    },
+    {
+     "date": "2026-10-20",
+     "query": "pass-and-swap",
+     "corpus": "arXiv"
+    },
+    {
+     "date": "2026-10-20",
+     "query": "papers citing Dorsman and Gardner 2024 (doi:10.1007/s11134-024-09914-1)",
+     "corpus": "Semantic Scholar citation graph"
+    }
+   ],
+   "closestPriorWork": "None on capped pass-and-swap; cyclic rotation of binary words is classical (Reiner-Stanton-White 2004).",
+   "verdict": "new-in-bounded-search"
+  },
+  {
+   "claim": "Positive result: bipartite swapping graphs with odd caps satisfy the conjecture under positive rates (Theorem 7.1).",
+   "unit": "statement",
+   "paperLocation": "Theorem 7.1",
+   "searches": [
+    {
+     "date": "2026-10-20",
+     "query": "\"pass-and-swap queues\" (works since 2024)",
+     "corpus": "Crossref"
+    },
+    {
+     "date": "2026-10-20",
+     "query": "pass-and-swap",
+     "corpus": "arXiv"
+    },
+    {
+     "date": "2026-10-20",
+     "query": "papers citing Dorsman and Gardner 2024 (doi:10.1007/s11134-024-09914-1)",
+     "corpus": "Semantic Scholar citation graph"
+    }
+   ],
+   "closestPriorWork": "Dorsman and Gardner 2024 Appendix C.2 remark that a proof would be easy with positive rates at all times, and their worked path examples at w = 1; no general proof found.",
+   "verdict": "new-in-bounded-search"
+  },
+  {
+   "claim": "Binding-move lemma and identification of capped service with truncated promotion on linear extensions (Lemma 3.3, Proposition 3.5).",
+   "unit": "method",
+   "paperLocation": "Section 3",
+   "searches": [
+    {
+     "date": "2026-10-19",
+     "query": "pass-and-swap queue swapping limit / bounded swaps Dorsman Gardner conjecture",
+     "corpus": "Public web, arXiv and exact-formula searches recorded in the first-version novelty check"
+    },
+    {
+     "date": "2026-10-20",
+     "query": "promotion linear extensions Markov chain; source-to-sink reorientation acyclic orientations",
+     "corpus": "Literature named by reviewers: Schützenberger 1972, Stanley 2009, Ayyer-Klee-Schilling 2014, Pretzel 1986, Propp 2025, Defant 2023, Develin-Macauley-Reiner 2016"
+    }
+   ],
+   "closestPriorWork": "Promotion and extended promotion (Schützenberger; Stanley; Ayyer-Klee-Schilling, fixed poset); reorientation moves (Pretzel; Propp; Defant; Develin-Macauley-Reiner). The truncation and the binding moves are not found there; promotion itself is credited.",
+   "verdict": "partially-known-cited"
+  },
+  {
+   "claim": "Product form on low orientations and invariance of the placement orientation without a cap.",
+   "unit": "statement",
+   "paperLocation": "Sections 1-3, Corollary 3.4(ii)",
+   "searches": [
+    {
+     "date": "2026-10-19",
+     "query": "pass-and-swap queue swapping limit / bounded swaps Dorsman Gardner conjecture",
+     "corpus": "Public web, arXiv and exact-formula searches recorded in the first-version novelty check"
+    }
+   ],
+   "closestPriorWork": "Comte and Dorsman 2021; Dorsman and Gardner 2024 Theorem 7. Credited, not claimed.",
+   "verdict": "known-cited"
+  },
+  {
+   "claim": "Orientation-scaled product form on the balanced class holds iff rates are constant within each queue (Theorem 8.4); homogeneous law and partial balance (Theorem 8.2, Proposition 8.3).",
+   "unit": "statement",
+   "paperLocation": "Section 8",
+   "searches": [
+    {
+     "date": "2026-10-20",
+     "query": "\"pass-and-swap queues\" (works since 2024)",
+     "corpus": "Crossref"
+    },
+    {
+     "date": "2026-10-20",
+     "query": "papers citing Dorsman and Gardner 2024 (doi:10.1007/s11134-024-09914-1)",
+     "corpus": "Semantic Scholar citation graph"
+    }
+   ],
+   "closestPriorWork": "Ayyer-Klee-Schilling 2014 Theorems 4.3, 4.5 (reciprocal prefix-sum weights and uniform laws for promotion chains on a fixed poset); Dorsman and Gardner 2024 Appendix B partial-balance equations.",
+   "verdict": "new-in-bounded-search"
+  }
+ ],
+ "sourcesReadInFull": [
+  {
+   "citation": "J.-P. Dorsman and K. Gardner, New directions in pass-and-swap queues, Queueing Systems 107 (2024) 205-256",
+   "usedFor": "Target conjecture, definitions, conventions, partial-balance equations; verbatim quotations",
+   "readWhat": "Full published text, in particular Sections 3.1, 5, 5.2.2, Lemma 3, Theorem 7, Remark 9, Examples 8, 9, 11, Appendices B and C.2",
+   "date": "2026-10-20",
+   "evidenceLocator": "https://doi.org/10.1007/s11134-024-09914-1 (open access); manuscript Section 2.3"
+  },
+  {
+   "citation": "C. Comte and J.-P. Dorsman, Pass-and-swap queues, Queueing Systems 98 (2021) 275-331",
+   "usedFor": "Mechanism, orientation invariance, product-form theorem specialised in Theorem 8.2",
+   "readWhat": "Full text (first-version check), Propositions 2 and 4, Theorem 5",
+   "date": "2026-10-19",
+   "evidenceLocator": "https://doi.org/10.1007/s11134-021-09700-3; arXiv:2009.12299"
+  },
+  {
+   "citation": "A. Ayyer, S. Klee and A. Schilling, Combinatorial Markov chains on linear extensions, J. Algebraic Combin. 39 (2014) 853-881",
+   "usedFor": "Extended promotion operators and conventions in Proposition 3.5; comparison of stationary weights",
+   "readWhat": "Section 2 (operators), Theorems 4.3 and 4.5",
+   "date": "2026-10-20",
+   "evidenceLocator": "https://doi.org/10.1007/s10801-013-0470-9; arXiv text"
+  }
+ ],
+ "limitationTriage": [
+  {
+   "limitation": "Even caps on bipartite graphs (Conjecture 7.2) are not proved.",
+   "closingQuestion": "Does the good-edge potential argument of Theorem 7.1 extend to even w?",
+   "triedOrSearched": "The proof's parity step fails for even w; exact computation on all connected bipartite graphs with at most 9 vertices and structured graphs up to 12 vertices found no counterexample.",
+   "estimatedCost": "open research problem",
+   "cheap": false,
+   "decision": "OPEN",
+   "reasonOpen": "Requires a new argument; possible traps at configurations where every longest path has exactly w+1 edges could not be excluded.",
+   "whyNotClosedNow": ""
+  },
+  {
+   "limitation": "Head-only (general order-independent) service is certified only for bipartite graphs with at most 7 vertices.",
+   "closingQuestion": "Can transience be proved without positive rates at every position?",
+   "triedOrSearched": "Full-state computation for n <= 7; closure results (Remark 4.3) hold for every rate function.",
+   "estimatedCost": "open research problem",
+   "cheap": false,
+   "decision": "OPEN",
+   "reasonOpen": "Without (PR) states with one orientation need not communicate, so the orientation-digraph reduction is unavailable.",
+   "whyNotClosedNow": ""
+  },
+  {
+   "limitation": "No characterisation of all (G, w) with a recurrent class of excessive height.",
+   "closingQuestion": "Is there a criterion in terms of closed walks / odd cycles and w?",
+   "triedOrSearched": "Cycle classification and two-cycle family proved; census to 7 vertices; observed 4r-orientation classes on G(a,b,L).",
+   "estimatedCost": "open research problem",
+   "cheap": false,
+   "decision": "OPEN",
+   "reasonOpen": "The census patterns are observations only.",
+   "whyNotClosedNow": ""
+  },
+  {
+   "limitation": "Heterogeneous stationary law on the balanced class has no closed form; Theorem 8.4 excludes one representation only.",
+   "closingQuestion": "Is there another product structure or perturbative description?",
+   "triedOrSearched": "Exact stationary laws computed for listed C_5 rates (Table 5).",
+   "estimatedCost": "open research problem",
+   "cheap": false,
+   "decision": "OPEN",
+   "reasonOpen": "No candidate closed form identified.",
+   "whyNotClosedNow": ""
+  },
+  {
+   "limitation": "Mistaken reading of the cycle result at w = 1 (odd cycles lie outside the colouring hypothesis).",
+   "closingQuestion": "Is every scope statement restricted to w >= 2 where needed?",
+   "triedOrSearched": "Abstract, C3, Section 5 and Discussion checked after re-review.",
+   "estimatedCost": "10 min",
+   "cheap": true,
+   "decision": "CLOSED",
+   "reasonOpen": "",
+   "whyNotClosedNow": ""
+  },
+  {
+   "limitation": "Finite certificates could be unfaithful to Definition 2.2.",
+   "closingQuestion": "Do independent descriptions agree on small graphs?",
+   "triedOrSearched": "Full state graph, simulated orientation digraph and Lemma 3.3 compared on all graphs with at most 6 vertices; separate engine written by the re-reviewer; semantic negative controls.",
+   "estimatedCost": "done",
+   "cheap": true,
+   "decision": "CLOSED",
+   "reasonOpen": "",
+   "whyNotClosedNow": ""
+  },
+  {
+   "limitation": "Multiplicity behaviour on cycles is checked only for listed vectors.",
+   "closingQuestion": "Does every multiplicity >= 2 remove the high classes on cycles?",
+   "triedOrSearched": "Listed vectors on C_5, C_7, C_9 (Table 4).",
+   "estimatedCost": "open research problem",
+   "cheap": false,
+   "decision": "OPEN",
+   "reasonOpen": "Stated as Open problem (5).",
+   "whyNotClosedNow": ""
+  }
+ ],
+ "extensionScout": {
+  "by": "first-round internal AI-assisted review (editor, three specialist perspectives, devil's advocate)",
+  "date": "2026-10-20",
+  "proposals": [
+   "E1 census of connected graphs to 7 vertices",
+   "E2 exact classification on cycles",
+   "E3 w = 1 on bipartite graphs",
+   "E4 heterogeneous obstruction for general w",
+   "E5 promotion identification",
+   "E6 several jobs per class",
+   "E7 corrected positive statement"
+  ],
+  "actions": [
+   "E1 done (Table 3, Theorem 6.1)",
+   "E2 proved (Theorem 5.2)",
+   "E3 proved for all odd w (Theorem 7.1) and certified for all w to 9 vertices",
+   "E4 proved for every w >= 2 (Theorem 8.4)",
+   "E5 proved (Proposition 3.5)",
+   "E6 proved reduction (Proposition 6.2) and certified examples (Table 4)",
+   "E7 odd-girth repair refuted (C_9, w = 2); bipartite odd-cap statement proved; Conjecture 7.2 stated"
+  ]
+ }
+}

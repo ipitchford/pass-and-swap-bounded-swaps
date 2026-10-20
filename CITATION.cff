@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "Please cite this versioned research candidate by its DOI."
+title: "Bounded swaps in pass-and-swap queues: counterexamples to a conjecture of Dorsman and Gardner, and a proof for bipartite swapping graphs with odd caps under positive service rates"
+type: software
+authors:
+  - name: Anonymous
+version: 1.0.0-candidate
+doi: 10.5281/zenodo.23515841
+date-released: 2026-10-20
+repository-code: "https://github.com/ipitchford/pass-and-swap-bounded-swaps"
+url: "https://evidencepress.org/releases/pass-and-swap-bounded-swaps/"
+license: CC0-1.0
+keywords:
+  - pass-and-swap queues
+  - product-form stationary distribution
+  - order-independent queues
+  - acyclic orientations
+  - promotion on linear extensions
+  - counterexample
+abstract: "Counterexamples, for every swap cap w >= 2, to Conjecture 1 of Dorsman and Gardner (2024) on closed tandems of pass-and-swap queues; an exact classification on cycles (n = 1 mod 2w, under positive rates); a two-odd-cycle family; a census of all connected graphs with at most seven vertices; a proof of the conjecture for bipartite swapping graphs with odd caps under positive rates; and stationary laws on the counterexample class. Unrefereed candidate with exact replayable verifiers. Original code is MIT-licensed; see LICENSES.md."
+references:
+  - type: article
+    title: "New directions in pass-and-swap queues"
+    authors:
+      - family-names: Dorsman
+        given-names: Jan-Pieter
+      - family-names: Gardner
+        given-names: Kristen
+    journal: "Queueing Systems"
+    volume: 107
+    year: 2024
+    doi: 10.1007/s11134-024-09914-1

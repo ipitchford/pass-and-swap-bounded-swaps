@@ -1,0 +1,8 @@
+{
+"binary_rotation": [{"balanced_full_words":30,"rotation_holds_both_labellings":true,"w":2},{"balanced_full_words":140,"rotation_holds_both_labellings":true,"w":3},{"balanced_full_words":630,"rotation_holds_both_labellings":true,"w":4},{"balanced_full_words":2772,"rotation_holds_both_labellings":true,"w":5},{"balanced_full_words":12012,"rotation_holds_both_labellings":true,"w":6}],
+"graphs": "all graphs on 2..5 vertices, and on 6 vertices: C6, K33, K6, two triangles and a bridge",
+"input_sha256": "ef50d308ae61c7eb53f9c1137a0cf080997674cc625c70936240c2f2e176d96f",
+"promotion_identity_checks": 1359792,
+"status": "PASS",
+"verifier": "promotion_check.py"
+}

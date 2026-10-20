@@ -1,0 +1,45 @@
+{
+  "title": "Bounded swaps in pass-and-swap queues: counterexamples to a conjecture of Dorsman and Gardner, and a proof for bipartite swapping graphs with odd caps under positive service rates",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "<p><strong>Unrefereed research candidate.</strong> Dorsman and Gardner (Queueing Systems 107, 2024) studied closed tandems of two pass-and-swap queues in which a service completion may trigger at most w swaps, and conjectured that, when the swapping graph is (w+1)-colourable, every state whose placement orientation has a directed path longer than w edges is transient.</p><p>This package shows that the conjecture fails for every cap w &ge; 2. Under positive service rates, the cycle C_n has a recurrent class of excessive height if and only if n &equiv; 1 (mod 2w), and that class is unique; for n = 2w+1 it has (2w+2)!/(w!)^2 states and is closed for every admissible rate function. Two odd cycles joined by a path give a further family, and an exact census of all connected graphs with at most seven vertices finds 1355 violating (graph, cap) pairs, none bipartite and none at w = 1. Conversely, the conjecture holds for bipartite swapping graphs with odd caps under positive rates; exact computation finds no counterexample for any cap on bipartite graphs with at most nine vertices (Conjecture 7.2). On the counterexample class of C_{2w+1}, homogeneous rates give an explicit product-form law, while for additive per-job rates scaling the original product weights by one constant per orientation is stationary only when rates are constant within each queue.</p><p>The archive contains the manuscript (PDF and LaTeX), standard-library Python verifiers with exact arithmetic, JSON certificates, a one-command byte-for-byte replay, semantic negative controls and SHA-256 sums. Assurance: written proofs; producer-side replay of all 15 certificate runs, byte-identical, including a clean replay from a separate copy; internal AI-assisted review and AI-assisted adversarial review. This is not peer review, independent reproduction or formal verification. Creator: Anonymous. Prose, manuscript and data CC0-1.0; code MIT.</p>",
+  "creators": [
+    {
+      "name": "Anonymous"
+    }
+  ],
+  "version": "1.0.0-candidate",
+  "doi": "10.5281/zenodo.23515841",
+  "publication_date": "2026-10-20",
+  "access_right": "open",
+  "license": "cc-zero",
+  "keywords": [
+    "pass-and-swap queues",
+    "bounded swaps",
+    "product-form stationary distribution",
+    "order-independent queues",
+    "redundancy scheduling",
+    "acyclic orientations",
+    "promotion on linear extensions",
+    "counterexample",
+    "Markov chains"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/ipitchford/pass-and-swap-bounded-swaps/tree/v1.0.0-candidate",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://evidencepress.org/releases/pass-and-swap-bounded-swaps/",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.1007/s11134-024-09914-1",
+      "relation": "references",
+      "scheme": "doi"
+    }
+  ],
+  "notes": "Original code (Python verifiers, CI workflow) is released under the MIT licence; see LICENSES.md in the archive. Quotations from Dorsman and Gardner (2024) remain under CC BY 4.0."
+}

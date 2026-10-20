@@ -1,0 +1,109 @@
+{
+ "schemaVersion": "1.0",
+ "release": "pass-and-swap-bounded-swaps",
+ "version": "1.0.0-candidate",
+ "doi": "10.5281/zenodo.23515841",
+ "creator": "Anonymous",
+ "status": "unrefereed-candidate",
+ "manuscript": "bounded_swaps_pass_and_swap.pdf",
+ "boundary": "'proved' means a complete written proof in the manuscript, not formal verification; 'certified-finite' means an exact deterministic computation, claimed only for the stated finite range. Internal AI-assisted review is not peer review or independent reproduction.",
+ "claims": [
+  {
+   "id": "binding-moves",
+   "location": "Lemma 3.3, Corollary 3.4",
+   "status": "proved",
+   "statement": "Exact list of orientation changes a capped service can cause (necessity for every rate function; exactness under positive rates); under positive rates, recurrence reduces to a finite digraph on acyclic orientations.",
+   "computationalCheck": "census_small_graphs.py compares the lemma with simulation on all 104,590 (graph, cap, orientation) triples with at most 6 vertices"
+  },
+  {
+   "id": "truncated-promotion",
+   "location": "Proposition 3.5",
+   "status": "proved",
+   "statement": "Uncapped service of a full upper queue is extended promotion on linear extensions; the cap truncates it after the w-th comparable pair.",
+   "computationalCheck": "promotion_check.py"
+  },
+  {
+   "id": "balanced-class",
+   "location": "Theorem 4.1, Corollary 4.2",
+   "status": "proved",
+   "statement": "For every w >= 2 the balanced states of C_{2w+1} form a set closed under every admissible rate function, of height w+1, a single recurrent class under positive rates, with (2w+2)!/(w!)^2 states; Conjecture 1 of Dorsman and Gardner is false for every w >= 2.",
+   "computationalCheck": "balanced_class_check.py (w = 2..6), independent_check.py, family_check.py"
+  },
+  {
+   "id": "cycle-classification",
+   "location": "Theorem 5.2",
+   "status": "proved",
+   "statement": "On C_n with cap w and positive rates, a recurrent class of excessive height exists iff n = 1 (mod 2w); it is then unique. For w >= 2 the conjecture therefore fails on C_n exactly when n = 1 (mod 2w).",
+   "computationalCheck": "cycle_classification.py (all n <= 14, all caps)"
+  },
+  {
+   "id": "two-odd-cycles",
+   "location": "Theorem 6.1",
+   "status": "proved",
+   "statement": "Two odd cycles C_{2a+1}, C_{2b+1} joined by a path of length L violate the conjecture at cap w = a+b+L+1 under positive rates.",
+   "computationalCheck": "two_cycle_family.py (20 members, n <= 13)"
+  },
+  {
+   "id": "census-n7",
+   "location": "Section 6.2, Table 3",
+   "status": "certified-finite",
+   "statement": "Among all connected graphs with at most 7 vertices and every cap with chi(G) <= w+1 <= n-1, there are 1355 violating (graph, cap) pairs under positive rates; none bipartite; none at w = 1.",
+   "computationalCheck": "census_small_graphs.py"
+  },
+  {
+   "id": "multiplicity-reduction",
+   "location": "Proposition 6.2",
+   "status": "proved",
+   "statement": "Under the symmetric lift of the rate functions, several jobs per class reduce to one job per class on the blow-up graph.",
+   "computationalCheck": null
+  },
+  {
+   "id": "multiplicity-examples",
+   "location": "Table 4",
+   "status": "certified-finite",
+   "statement": "Listed multiplicity vectors on C_5, C_7, C_9 lose their high classes; K_3 with two jobs per class (and the bowtie) still violate.",
+   "computationalCheck": "multiplicity_check.py"
+  },
+  {
+   "id": "bipartite-odd-caps",
+   "location": "Theorem 7.1",
+   "status": "proved",
+   "statement": "For bipartite swapping graphs, odd w and positive rates, every state of height greater than w is transient; in particular the conjecture holds at w = 1.",
+   "computationalCheck": null
+  },
+  {
+   "id": "bipartite-census",
+   "location": "Section 7, Conjecture 7.2",
+   "status": "certified-finite",
+   "statement": "No connected bipartite graph with at most 9 vertices violates the conjecture at any cap under positive rates, nor with at most 7 vertices under head-only service. The general even-cap case is Conjecture 7.2 (open).",
+   "computationalCheck": "bipartite_check.py, bipartite_check.py 9"
+  },
+  {
+   "id": "homogeneous-law",
+   "location": "Theorem 8.2, Proposition 8.3",
+   "status": "proved",
+   "statement": "With homogeneous rates the stationary law on the balanced class is uniform in the global word and binomial in the split; it satisfies the source's partial-balance equations.",
+   "computationalCheck": "balanced_class_check.py (w <= 4), stationary_details.py"
+  },
+  {
+   "id": "heterogeneous-rates",
+   "location": "Theorem 8.4, Corollary 8.5",
+   "status": "proved",
+   "statement": "On the balanced class of C_{2w+1}, for additive per-job rates and every w >= 2, original product weights times one constant per orientation are stationary iff the rates are constant within each queue. Other closed forms are not excluded.",
+   "computationalCheck": "heterogeneous_rates.py (w = 2, 3, 4), symbolic_rate_check.py, product_form_test.py"
+  },
+  {
+   "id": "deviation-sizes",
+   "location": "Table 5, Section 8.2",
+   "status": "certified-finite",
+   "statement": "On C_5 with rates (1,1,1,1,a): total variation of the orientation-matched approximation below 2e-3 for the listed a; absorption probabilities 1/7 and 2/7; long-run probability 67/252 of the high class from a uniform start.",
+   "computationalCheck": "stationary_details.py"
+  }
+ ],
+ "open": [
+  "Conjecture 7.2: bipartite swapping graphs, even caps.",
+  "General order-independent (head-only) rates beyond the certified range.",
+  "Characterisation of all (G, w) with a recurrent class of excessive height.",
+  "Closed form for the heterogeneous stationary law on the balanced class."
+ ]
+}

@@ -1,0 +1,7 @@
+Runtime: Python 3 (3.9 or later), standard library only. No third-party packages.
+Arithmetic: exact integers and fractions.Fraction; no floating point in any certified quantity.
+Determinism: certificates are written with sorted keys, one top-level key per line; replays are byte-identical.
+Release replay host: macOS (Darwin 27, arm64), CPython 3.14.7 (/opt/homebrew/bin/python3.14), run as python3 -S -O -B.
+Earlier clean replay: separate copy of the package, CPython 3 on the same host, all 15 runs including bipartite_check.py 9 (5333 s).
+Continuous integration: GitHub Actions, ubuntu-latest, CPython 3.12 and 3.14 (see .github/workflows/replay.yml); the 9-vertex run is not repeated in CI.
+PDF: pdfTeX 1.40.29 (TeX Live, Homebrew), pdflatex run three times, SOURCE_DATE_EPOCH=1792533600, FORCE_SOURCE_DATE=1.

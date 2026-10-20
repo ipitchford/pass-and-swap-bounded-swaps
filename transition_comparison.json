@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "state_count": 720,
+  "event_comparisons": 3600,
+  "swapping_graph": "C5",
+  "cap": 2,
+  "dependencies": "Python standard library"
+}

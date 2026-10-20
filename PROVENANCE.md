@@ -1,0 +1,8 @@
+# Provenance
+
+* Scholarly creator: **Anonymous** (standing Evidence Press attribution). No human research contribution is claimed or inferred.
+* Publisher: Evidence Press (https://evidencepress.org). Repository maintenance and publication operations: the Evidence Press publishing workflow under the repository owner's account; this is not authorship.
+* Production: AI-assisted research. The manuscript, proofs and verifiers were produced by AI research agents; internal AI-assisted review, a verification re-review and one AI-assisted adversarial review (an OpenAI model, different from the producing model) were used to find errors. Their substantive points are summarised in [REVIEW_SUMMARY.md](REVIEW_SUMMARY.md).
+* Target: Conjecture 1 of J.-P. Dorsman and K. Gardner, *New directions in pass-and-swap queues*, Queueing Systems 107 (2024) 205-256, doi:10.1007/s11134-024-09914-1 (open access, CC BY 4.0). Short quotations from that paper appear in Section 2.3 of the manuscript with attribution.
+* History: a first version (19 October 2026) contained the C_{2w+1} counterexample family and the C_5 heterogeneous computation. This version (20 October 2026) adds the binding-move lemma, the promotion identification, the cycle classification, the two-cycle family, the census, the multiplicity results, the bipartite theorem and the general-w heterogeneous theorem. Only this version is published.
+* Publication edit: the only change made at publication was replacing the placeholder in Section 10 by the reserved DOI, adding the DOI and release links to README.md and research_metadata.json, rebuilding the PDF (pdfLaTeX, three passes, SOURCE_DATE_EPOCH fixed) and regenerating SHA256SUMS. No verifier or certificate was changed.

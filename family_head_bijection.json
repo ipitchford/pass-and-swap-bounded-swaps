@@ -1,0 +1,44 @@
+[
+  {
+    "w": 2,
+    "n": 5,
+    "full_queue_words": 30,
+    "total_closed_states": 180,
+    "capped_head_bijection": true
+  },
+  {
+    "w": 3,
+    "n": 7,
+    "full_queue_words": 140,
+    "total_closed_states": 1120,
+    "capped_head_bijection": true
+  },
+  {
+    "w": 4,
+    "n": 9,
+    "full_queue_words": 630,
+    "total_closed_states": 6300,
+    "capped_head_bijection": true
+  },
+  {
+    "w": 5,
+    "n": 11,
+    "full_queue_words": 2772,
+    "total_closed_states": 33264,
+    "capped_head_bijection": true
+  },
+  {
+    "w": 6,
+    "n": 13,
+    "full_queue_words": 12012,
+    "total_closed_states": 168168,
+    "capped_head_bijection": true
+  },
+  {
+    "w": 7,
+    "n": 15,
+    "full_queue_words": 51480,
+    "total_closed_states": 823680,
+    "capped_head_bijection": true
+  }
+]
